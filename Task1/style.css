@@ -91,19 +91,35 @@ hr{
   color: #fff;
   background-color: rgba(6, 17, 63, 0.698);
   box-shadow:5px 5px 10px #ececec;
+  position: relative;
 }
 .edit{
   position: absolute;
-  top: 2000px;
-  bottom:0px;
-  left: 150px;
+  top: 125px;
+  left: 145px;
   z-index: 1000;
+  height:50px;
+  width: 50px;
+  display: none;
 }
-.edit a{
-  color: white;
+.card:hover  .edit{
+  display: inline-block;
+  animation: play 0.5s ease forwards;
+  animation-direction: reverse ;
+}
+@keyframes play {
+  0%{
+    top: 120px;
+    bottom:0px;
+    
+  }
+  100%{
+    top:125px;
+  }
 }
 .card:hover{
   background-color: rgb(26, 30, 65);
+
 }
 .card>img{
   width: 190px;
