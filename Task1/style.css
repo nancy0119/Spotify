@@ -2,6 +2,8 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 186, 223) 100%); 
+  background-color: rgba(9,9,121,1); /* For browsers that do not support gradients */
 }
 
 .navbar{
@@ -16,6 +18,7 @@ body{
   align-items: center;
   background-color: #02070e;
   opacity: 0.9;
+  position:fixed;
 }
 
 .brand{
@@ -90,6 +93,16 @@ hr{
   background-color: rgba(6, 17, 63, 0.698);
   
 }
+.edit{
+  position: absolute;
+  top: 2000px;
+  bottom:0px;
+  left: 150px;
+  z-index: 1000;
+}
+.edit a{
+  color: white;
+}
 .card:hover{
   background-color: rgb(26, 30, 65);
 }
@@ -140,3 +153,6 @@ hr{
 .joinBtn:hover{
   background: #00d4ff;
 }
+.music_col > span:hover{
+  text-decoration: underline;
+} 
