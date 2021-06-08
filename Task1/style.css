@@ -17,7 +17,6 @@ body{
   justify-content: space-between;
   align-items: center;
   background-color: #02070e;
-  opacity: 0.9;
   position:fixed;
 }
 
@@ -37,10 +36,9 @@ body{
   color: #00d4ff;
 }
 .main{
-  display: flex;
-  background: rgb(3, 0, 61);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 186, 223) 100%); 
+  display: flex; 
   border-bottom: 1px solid rgb(26, 72, 102);
+  margin-top: 65px;
 }
 .left{
   flex: 0.22;
@@ -82,6 +80,7 @@ hr{
 }
 .music_cards{
   display: flex;
+  justify-content: space-between;
 }
 .card{
   margin: 20px;
@@ -91,7 +90,7 @@ hr{
   border-radius: 5px;
   color: #fff;
   background-color: rgba(6, 17, 63, 0.698);
-  
+  box-shadow:5px 5px 10px #ececec;
 }
 .edit{
   position: absolute;
@@ -124,8 +123,7 @@ hr{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: rgb(3, 0, 61);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 186, 223) 100%);
+  background: black;
   padding: 30px;  
 }
 
@@ -133,14 +131,14 @@ hr{
   color: #fff;
   color: #00d4ff;
   letter-spacing: 0.01em;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 .content{
   color: #ececec;
-  font-size: 25px;
-  font-family: cursive;
-  letter-spacing: 0.03em;
+  font-size: 17px;
+  font-family: 'Fredericka the Great', cursive;
+  /* letter-spacing: 0.03em; */
 }
 .joinBtn{
   padding: 15px 30px;
