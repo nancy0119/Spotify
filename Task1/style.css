@@ -4,7 +4,9 @@ body{
   font-family: sans-serif;
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(3, 186, 223) 100%); 
   background-color: rgba(9,9,121,1); /* For browsers that do not support gradients */
-}
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} 
 
 .navbar{
   display: flex;
@@ -141,8 +143,8 @@ hr{
   align-items: center;
   background: black;
   padding: 30px 0px;
-  width: 100%;
-  position: sticky;
+  max-width :100%;
+  width :100vw;
 }
 
 .hd{
